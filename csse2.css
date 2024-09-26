@@ -1,0 +1,79 @@
+body {
+    font-family: Tahoma;
+    text-align: center;
+}
+
+main {
+    width: 70%;
+    background-color: maroon;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+aside {
+    background: url(img02.jpg) no-repeat center center;
+    background-size: cover;
+    width: 30%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    color: whitesmoke;
+    font-style: italic;
+    text-transform: uppercase;
+    border: 2px dotted mistyrose;
+}
+
+.titulo-secao {
+    color: whitesmoke;
+    background: url(img03.jpg) no-repeat center center;
+    background: rgba(255, 254, 254, 0.3);
+    background-size: cover; 
+}
+
+.titulo-lateral {
+    background-image: url(img01.jpg);
+    color: maroon;
+}
+
+ul {
+    list-style-image: url(check.png);
+    color: lightgray;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: left;
+}
+
+.destaque {
+    color: gold;
+    text-decoration: underline;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    border: 3px dashed indianred;
+}
+
+h1:hover, .destaque:hover {
+    background-color: crimson;
+    color: lightpink;
+    border-color: lightpink;
+}
+
+.titulo-secao:hover {
+    color: indianred;
+}
+
+img:hover {
+    transform: rotate(-5deg);
+    border: 5px double gold;
+}
